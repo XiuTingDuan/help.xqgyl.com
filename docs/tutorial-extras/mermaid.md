@@ -4,13 +4,8 @@ Diagrams can be rendered using Mermaid in a code block.
 ```
 npm install --save @docusaurus/theme-mermaid
 
-```
 
-``
-
-``
-```
-mermaid
+```mermaid
 graph TD;
     A-->B;
     A-->C;
@@ -19,5 +14,8 @@ graph TD;
 ```
 
 
-
+```
+Start --> One
+Start --> Two
+```
 

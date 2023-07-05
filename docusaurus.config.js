@@ -134,13 +134,12 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      markdown: {
+    mermaid: true,
+  },
+  themes: ['@docusaurus/theme-mermaid'],
     }),
 };
 
 module.exports = config;
-module.exports = {
-  markdown: {
-    mermaid: true,
-  },
-  themes: ['@docusaurus/theme-mermaid'],
-};
+
