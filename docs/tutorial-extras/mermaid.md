@@ -6,8 +6,11 @@ npm install --save @docusaurus/theme-mermaid
 
 ```
 
+``
 
-```mermaid
+``
+```
+mermaid
 graph TD;
     A-->B;
     A-->C;
