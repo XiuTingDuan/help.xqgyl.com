@@ -77,7 +77,7 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -134,12 +134,16 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      markdown: {
-    mermaid: true,
-  },
-  themes: ['@docusaurus/theme-mermaid'],
     }),
 };
 
 module.exports = config;
-
+// module.exports = {
+//   title: 'My Site',
+//   url: 'https://help.xqgyl.com',
+//   baseUrl: '/',
+//   markdown: {
+//     mermaid: true,
+//   },
+//   themes: ['@docusaurus/theme-mermaid'],
+// };
