@@ -73,18 +73,37 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'CC',
+          // },
+          // {
+          //   type: 'docSidebar',
+          //   sidebarId: 'tutorialSidebar',
+          //   position: 'left',
+          //   label: 'BES',
+          //   to: '/bes'
+          // },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'CC',
+            type: "doc",
+            label: "HMS",
+            docId: "hms/intro",
+            position: "left",
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'BES',
+            type: "doc",
+            label: "WMS",
+            docId: "wms/intro",
+            position: "left",
           },
+          // {
+          //   type: "doc",
+          //   label: "Get Started",
+          //   docId: "getting-started/overview",
+          //   position: "left",
+          // },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
             href: 'https://github.com/facebook/docusaurus',
