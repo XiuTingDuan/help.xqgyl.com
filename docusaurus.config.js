@@ -6,6 +6,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const math = require('remark-math');
 const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
+
 const config = {
   title: 'My Site',
   tagline: 'Dinosaurs are cool',
@@ -33,6 +34,7 @@ const config = {
     locales: ['zh-CN'],
   },
 
+  
   presets: [
     [
       'classic',
@@ -133,6 +135,9 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      markdown: {
+        mermaid: true,
       },
     }),
 };
