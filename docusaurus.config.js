@@ -8,8 +8,8 @@ const katex = require('rehype-katex');
 /** @type {import('@docusaurus/types').Config} */
 
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '帮助中心',
+  tagline: '翔桥供应链服务平台',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -67,9 +67,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: '帮助中心',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -77,7 +77,13 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'CC',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'BES',
           },
           { to: '/blog', label: 'Blog', position: 'left' },
           {
@@ -91,16 +97,28 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '帮助文档',
             items: [
               {
-                label: 'Tutorial',
+                label: 'HMS总部系统',
+                to: '/docs/intro',
+              },
+              {
+                label: 'BES商务主体系统',
+                to: '/docs/intro',
+              },
+              {
+                label: 'WMS仓库管理系统',
+                to: '/docs/intro',
+              },
+              {
+                label: 'FM财务系统',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '系统链接',
             items: [
               {
                 label: 'Stack Overflow',
